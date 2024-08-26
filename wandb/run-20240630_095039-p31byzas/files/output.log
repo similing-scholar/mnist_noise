@@ -1,0 +1,25 @@
+================================================================================2024-06-30 09:50:51
+Epoch 1 / 1000
+ 14%|█▍        | 104/750 [00:03<00:21, 29.98it/s, train_acc=0.328, train_loss=5.97]
+Traceback (most recent call last):
+  File "D:\BITcode\__code__\PJ_LML\train_wandb.py", line 129, in <module>
+    train_model_with_noise_factor(noise_factor, net_name)
+  File "D:\BITcode\__code__\PJ_LML\train_wandb.py", line 93, in train_model_with_noise_factor
+    model.fit(train_data=train_loader,
+  File "D:\BITcode\__code__\PJ_LML\model\train_model_interface.py", line 149, in fit
+    train_metrics = train_epoch_runner(train_data)
+  File "D:\BITcode\__code__\PJ_LML\model\train_model_interface.py", line 79, in __call__
+    loss, step_metrics = self.steprunner(*batch)
+  File "D:\BITcode\__code__\PJ_LML\model\train_model_interface.py", line 48, in __call__
+    self.optimizer.step()  # 更新参数
+  File "D:\Anaconda\envs\ML3.9\lib\site-packages\torch\optim\optimizer.py", line 280, in wrapper
+    out = func(*args, **kwargs)
+  File "D:\Anaconda\envs\ML3.9\lib\site-packages\torch\optim\optimizer.py", line 33, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "D:\Anaconda\envs\ML3.9\lib\site-packages\torch\optim\adam.py", line 141, in step
+    adam(
+  File "D:\Anaconda\envs\ML3.9\lib\site-packages\torch\optim\adam.py", line 281, in adam
+    func(params,
+  File "D:\Anaconda\envs\ML3.9\lib\site-packages\torch\optim\adam.py", line 448, in _multi_tensor_adam
+    torch._foreach_mul_(device_exp_avg_sqs, beta2)
+KeyboardInterrupt

@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-06-29T15:27:47.465697",
+    "startedAt": "2024-06-29T15:27:39.711741",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\BITcode\\__code__\\PJ_LML\\train_wandb.py",
+    "codePathLocal": "train_wandb.py",
+    "codePath": "train_wandb.py",
+    "host": "DESKTOP-QHUH81I",
+    "username": "JiaPeng",
+    "executable": "D:\\Anaconda\\envs\\ML3.9\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2904.0,
+        "min": 0.0,
+        "max": 2904.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2904.0,
+            "min": 0.0,
+            "max": 2904.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 299.99999618530273,
+            "used": 241.11613082885742
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2070 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2070 SUPER",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 31.939468383789062
+    }
+}
